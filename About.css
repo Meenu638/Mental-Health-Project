@@ -1,0 +1,174 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+#navbar{
+    width: 100%;
+    height: 4rem;
+    background-color: white;
+    border-radius: 1rem 1rem 0 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navIcon {
+    margin: 0.3rem 0 0 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.navIcon i{
+    font-size: 2rem;
+    color: #a5e0e6;
+    margin-right: 0.5rem;
+}
+
+.navIcon h3{
+    color: #a5e0e6;
+    font-size: 25px;
+}
+
+.navOptions a {
+    text-decoration: none;
+    color: #008080;
+    font-size: 20px;
+    margin: 0 25px;
+    font-weight: 600;
+}
+
+.navOptions a:hover {
+    color: black;
+    text-decoration: underline black 2px;
+    font-size: 22px;
+}
+
+
+#navbar button{
+    background-color: blue;
+    color: white;
+    margin-right: 2rem;
+    border:none;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 0.7rem;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#navbar button:hover{
+    height: 2.3rem;
+    width: 5.3rem;
+}
+
+.about{
+    width: 100%;
+    height: 20rem;
+    background-color: #c5e9ec;
+    background-image: url("aboutImg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.about h1{
+    text-align: center;
+    color: #112A46;
+    font-size: 60px;
+    padding: 3rem 0 2rem 0 ;
+    font-weight: bold;
+}
+
+.about p{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 0 5rem 0 5rem;
+    line-height: 3rem;
+    font-weight: bold;
+}
+
+
+.mission{
+    background-color: #a5e0e6;
+    display: flex;
+    width: 100%;
+    height: 30rem;
+    justify-content: space-around;
+}
+
+#image{
+    height: 20rem;
+    width: 30rem;
+    border-radius: 1rem;
+}
+
+.img{
+    text-align: right;
+    margin: 4rem 5rem 0 0 ;
+    padding-top: 4rem;
+}
+
+
+.mission .text{
+    margin: 3rem 2rem 0 3rem;
+}
+
+.mission h3{
+    font-size: 3rem;
+    color: #3f89d3;
+    text-align: center;
+}
+
+
+.text p{
+    margin-top: 2rem;
+    font-size: 23px;
+    text-align:justify;
+    color: gray;
+    font-weight: bold;
+    line-height: 2.5rem;
+}
+
+.vision{
+    background-color: #a5e0e6;
+    display: flex;
+    width: 100%;
+    height: 30rem;
+    justify-content: space-around;
+}
+
+.visionImg{
+    text-align: right;
+    margin: 4rem 0 0 4rem ;
+    padding-top: 4rem;
+}
+
+
+#vision{
+    height: 20rem;
+    width: 30rem;
+    border-radius: 1rem;
+}
+
+
+.para p{
+    font-size: 23px;
+    text-align:justify;
+    color: gray;
+    font-weight: bold;
+    line-height: 2.5rem;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.para h3{
+    font-size: 3rem;
+    margin-top: 4rem;
+    color: #3f89d3;
+    text-align: center;
+}
